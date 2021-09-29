@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace PlacesYouveBeen.Models
 {
   public class Place
@@ -7,6 +10,19 @@ namespace PlacesYouveBeen.Models
     public Place(string city)
     {
       CityName = city;
+      _storedPlaces.Add(this);
+    }
+
+    private static List<Place> _storedPlaces = new List<Place> {};
+
+    public static List<Place> GetAll()
+    {
+      return _storedPlaces;
+    }
+
+    public static void ClearAll()
+    {
+      _storedPlaces.Clear();
     }
   }
 }
