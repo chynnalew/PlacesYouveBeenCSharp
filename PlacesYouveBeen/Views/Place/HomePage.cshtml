@@ -1,3 +1,4 @@
+@using PlacesYouveBeen.Models;
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,10 @@
   <body>
     <h1>Places You've Been Tracker!</h1>
     <h3>You've been places. That's pretty cool!</h3>
-    
+    <p> Here are all the places you've been:</p>
+    <ul>
+      <li>@Model.CityName</li>
+    </ul>
     <button onclick="window.location.href='/place/new'">Add Place</button>
   </body>
 </html>
