@@ -1,8 +1,8 @@
-# Name of Project
+# Places You've Been
 
-#### short description of the app
+#### A C# application that allows the user to add places they've been
 
-#### Created By: Name
+#### Created By: Chynna Lew & Diego Serafico
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-Detailed description
+A C# application that allows the user to add places they've been
 
 ## Setup and Usage Instructions
 
@@ -25,13 +25,18 @@ Detailed description
 
 ### Installation
 
-* Clone [this](github.com/yourName/repoName) repository, or download and open the Zip on your local machine
-* Open the FOLDER NAME folder in your preferred text editor
+* Clone [this](github.com/chynnalew/PlacesYouveBeenCSharp) repository, or download and open the Zip on your local machine
+* Open the PlacesYouveBeenCSharp folder in your preferred text editor
 * Restore and build the project:
-  - Navigate to the PlacesYouveBeen.Solutions/PlacesYouveBeen folder in the command line or terminal 
+  - Navigate to the PlacesYouveBeenCSharp/PlacesYouveBeen folder in the command line or terminal 
     -- Run the command "$ dotnet restore" to restore the project dependencies
     -- Run the command "$ dotnet build" to build and compile the project
     -- Run the command "$ dotnet run" to build and compile the project
+* To run the tests:
+  - Navigate to the PlacesYouveBeenCSharp/PlacesYouveBeen.tests folder in the command line or terminal 
+    -- Run the command "$ dotnet restore" to restore the test project dependencies
+    -- Run the command "$ dotnet build" to build and compile the test project
+  - In the terminal run the command "$ dotnet test"
 
 ## Known Bugs
 
@@ -44,5 +49,5 @@ Copyright 2021 Name
 
 ## Support and contact details
 
-* [Name](github.com/yourGitHub) 
-* <email@email.com>
+* [Chynna Lew](github.com/chynnalew) <chynnalew@yahoo.com>
+* [Diego Serafico](github.com/DiegoSerafico) <dseraficohernandez@gmail.com>
