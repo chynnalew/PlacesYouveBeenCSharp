@@ -1,6 +1,6 @@
-namespace FileName.Models
+namespace PlacesYouveBeen.Models
 {
-  public class NameThis
+  public class Places
   {
     // add constructors here!
     // ex:
