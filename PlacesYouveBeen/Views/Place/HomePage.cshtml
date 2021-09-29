@@ -12,7 +12,7 @@
     <ul>
       @foreach (Place place in Model)
       {
-        <li>@place.CityName</li>
+        <li>@place.CityName , @place.Date</li>
       }
     </ul>
     <button onclick="window.location.href='/place/new'">Add Place</button>

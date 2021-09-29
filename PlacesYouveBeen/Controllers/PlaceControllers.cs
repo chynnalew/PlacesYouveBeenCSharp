@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using PlacesYouveBeen.Models;
+using System;
 using System.Collections.Generic;
 
 namespace PlacesYouveBeen.Controllers
@@ -19,9 +20,10 @@ namespace PlacesYouveBeen.Controllers
     }
 
     [HttpPost("/place")]
-    public ActionResult Create(string city)
+    public ActionResult Create(string city, string date)
     {
-      Place testPlace = new Place(city);
+      Place testPlace = new Place(city, date);
+      
       // return View("HomePage", testPlace);
       return RedirectToAction("HomePage");
     }

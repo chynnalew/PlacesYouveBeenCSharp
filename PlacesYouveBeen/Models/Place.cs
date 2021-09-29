@@ -6,10 +6,12 @@ namespace PlacesYouveBeen.Models
   public class Place
   {
     public string CityName { get; set; }
+    public string Date { get; set;}
 
-    public Place(string city)
+    public Place(string city, string date)
     {
       CityName = city;
+      Date = date;
       _storedPlaces.Add(this);
     }
 
